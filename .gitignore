@@ -1,0 +1,9 @@
+venv/
+Glipsim/Glipsim/package.json
+Glipsim/Glipsim/package-lock.json
+Glipsim/Glipsim/node_modules/
+Glipsim/Glipsim/static/css/bootstrap-5.3.2
+Glipsim/__pycache__/
+Glipsim/Glipsim/__pycache__/
+Glipsim/server/__pycache__/
+Glipsim/simulation/__pycache__/

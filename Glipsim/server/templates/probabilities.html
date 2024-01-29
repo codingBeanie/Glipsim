@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block scripts %}
+<script type='text/javascript'>
+    var data_survival = {{ data_survival|safe }};
+    var data_reproduction = {{ data_reproduction|safe }};
+    var data_evaluation_reproduction_age = {{ data_evaluation_reproduction_age|safe }};
+</script>
+<script src="{% static 'js/plotly.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'js/probabilities.js' %}"></script>
+
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <h1>Probabilities</h1>
+</div>
+<div id='plot_survival'></div> 
+<div id='plot_reproduction'></div>
+<div id='plot_evaluation_reproduction'></div>
+{% endblock %}

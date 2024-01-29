@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% block scripts %}
+<script src="{% static 'js/plotly.min.js' %}"></script>
+<script src="{% static 'js/graphs.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid">
+    <h1>Statistics</h1>
+</div>
+<div class="d-flex flex-wrap">
+    <div id="plot_population"></div>
+    <div id="plot_births_deaths"></div>
+    <div id="plot_health"></div>
+    <div id="plot_death_age"></div>
+    <div id="plot_actions"></div>
+    <div id="plot_appearance"></div>
+    <div id="plot_preference"></div>
+    <div id="plot_tolerance_dating"></div>
+    <div id="plot_tolerance_age"></div>
+    
+</div>
+{% endblock %}
