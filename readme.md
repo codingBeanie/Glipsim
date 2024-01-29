@@ -8,7 +8,7 @@ For the current road map and planned features check this: [road map](https://git
 
 
 ## Glips
-![Glip Family](https://github.com/codingBeanie/Glipsim/doc/glip_family.webp)
+![Glip Family](doc/glip_family.webp)
 
 A Glip is a pretty simple genderless creature with a individual dna. The dna sequence consists of different genes that determine special preferences, appearence and other behavioural attributes.
 
