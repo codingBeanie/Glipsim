@@ -4,7 +4,7 @@ This is a *Django* server which runs a virtual life simulation of a fictional fa
 
 In brief, a summary of the basic mechanics is following in this document. For a more extensive documentation check this: [INSERT URL] (not yet implemented).
 
-For the current road map and planned features check this: [road map](https://raw.githubusercontent.com/codingBeanie/Glipsim/main/todo.md)
+For the current road map and planned features check this: [road map](https://github.com/codingBeanie/Glipsim/blob/main/todo.md)
 
 
 ## Glips
