@@ -8,6 +8,8 @@ For the current road map and planned features check this: [road map](https://git
 
 
 ## Glips
+![Glip Family](https://github.com/codingBeanie/Glipsim/doc/glip_family.webp)
+
 A Glip is a pretty simple genderless creature with a individual dna. The dna sequence consists of different genes that determine special preferences, appearence and other behavioural attributes.
 
 ## The Simulation
@@ -15,6 +17,7 @@ The simulation operates as a turn-based system. A turn represents one time-unit 
 
 ### Phase 1: Evaluation
 In the first phase each Glip decides what action to take. Each Glip can only take one action per turn. The decision process considers the current resources and status of a Glip as well as a individual preference based on its genes. Each Glips decides for a strategy, which further results in specific decision tree, ultimately ending in a event. 
+
 ![Evaluation Phase](https://raw.githubusercontent.com/codingBeanie/Glipsim/main/doc/Glipsim_Evaluation.webp)
 
 ### Phase 2: Events
