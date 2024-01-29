@@ -38,12 +38,12 @@
 - [ ] introduce somekind of statusbar
 
 ## Beautify 
-[] redesign webpage
+- [ ] redesign webpage
 
 ## Acounts
-[] make an admin access for the control features
+- [ ] make an admin access for the control features
 
 ## Production
-[] rent a webserver
-[] host the application
-[] set up a update pipeline
+- [ ] rent a webserver
+- [ ] host the application
+- [ ] set up a update pipeline
